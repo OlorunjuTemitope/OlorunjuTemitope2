@@ -1,0 +1,96 @@
+.image-16-icon {
+  height: 166px;
+  width: 162px;
+  position: relative;
+  object-fit: cover;
+}
+.image-16-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.klipsch-pro-2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 21px;
+}
+.add-to-cart,
+.product-separator {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 21px;
+}
+.product-separator {
+  align-self: stretch;
+  white-space: nowrap;
+}
+.add-to-cart {
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 115px;
+}
+.card-button-container,
+.card-button-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.card-button-row {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs);
+  background-color: var(--color-darkcyan);
+  border-radius: var(--br-8xs);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.card-button-row:hover {
+  background-color: var(--color-lightseagreen);
+}
+.card-button-container {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.klipsch-pro-2-parent,
+.product-card-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.klipsch-pro-2-parent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.product-card-column {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-18xl) 0 var(--padding-3xs);
+  gap: var(--gap-5xl);
+  min-width: 282px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .klipsch-pro-2 {
+    font-size: var(--font-size-lgi);
+    line-height: 17px;
+  }
+  .product-separator {
+    font-size: var(--font-size-base);
+    line-height: 17px;
+  }
+}

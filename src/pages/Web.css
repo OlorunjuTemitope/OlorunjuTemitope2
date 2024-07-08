@@ -1,0 +1,106 @@
+.carbondelivery {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.image-4-icon,
+.still-life-wireless-cyberpunk-icon {
+  position: absolute;
+  top: 661px;
+  left: 61.1px;
+  width: 761.7px;
+  height: 951.6px;
+  object-fit: contain;
+}
+.image-4-icon {
+  top: 736.3px;
+  left: 0;
+  width: 164px;
+  height: 164px;
+  object-fit: cover;
+  z-index: 2;
+}
+.still-life-wireless-cyberpunk-icon1 {
+  position: absolute;
+  top: 0;
+  left: 61.1px;
+  width: 761.7px;
+  height: 951.6px;
+  object-fit: contain;
+  z-index: 3;
+}
+.background-image-container {
+  width: 793px;
+  height: 1612.6px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -674.3px;
+}
+.carbondelivery-parent {
+  align-self: stretch;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 46px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 232px;
+  max-width: 100%;
+}
+.product-list-header-wrapper,
+.web {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.product-list-header-wrapper {
+  width: 1424px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.web {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 229px;
+  gap: 62px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .carbondelivery-parent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .carbondelivery-parent {
+    gap: 116px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .web {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .carbondelivery-parent {
+    gap: 58px;
+  }
+  .web {
+    gap: 15px;
+  }
+}
